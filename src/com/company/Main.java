@@ -7,13 +7,13 @@ public class Main {
 
     public static void main(String[] args) throws IOException {
 
-        Scanner e = new Scanner(System.in);
-        Scanner f = new Scanner(System.in);
+        Scanner a = new Scanner(System.in);
+        Scanner b = new Scanner(System.in);
         try {
             System.out.println("Введите первое число в диапазоне [1;100]:");
-            int num1 = e.nextInt();
+            int num1 = a.nextInt();
             System.out.println("Введите второе число в диапазоне [50;85]:");
-            int num2 = f.nextInt();
+            int num2 = b.nextInt();
 
             if (num1 < num2) {
                 System.out.println(num1 + " < " + num2);
